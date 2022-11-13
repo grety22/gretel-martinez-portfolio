@@ -51,7 +51,7 @@ export default function Example() {
                   Hello and Welcome
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  I'm <span className='font-bold text-violet-600'>Gretel Martinez</span>, <span className='font-bold'>Software Engineer</span> and UX/UI passionated
+                  I'm <span className='font-bold text-violet-600'>Gretel Martinez</span>, <span className='font-bold'>Software Engineer</span> and UX/UI passionate.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 sm:text-center">
                   This is my personal portfolio, and I'm working to create the best experience for you.
