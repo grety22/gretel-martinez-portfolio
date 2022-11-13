@@ -1,11 +1,8 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* This example requires Tailwind CSS v3.0+ */
-import { useState } from 'react'
 import Animation from './components/Temp/animation'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as Icons from '@fortawesome/free-solid-svg-icons';
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="isolate bg-white">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
@@ -38,11 +35,11 @@ export default function Example() {
       <main>
         <div className="relative px-6 lg:px-8">
           <div className='relative flex justify-center'>
-            <div className='absolute top-10 border mr-16 rounded-full w-fit p-2 border-2 cursor-pointer border-violet-600 hover:bg-opacity-25 hover:bg-violet-300'>
-              <a target="_blank" href='https://www.linkedin.com/in/gretelmn/' rel="noreferrer"><img src="./assets/linkedin.png" alt='linkedin-icon'/></a>
+            <div className='border mt-10 mr-4 rounded-full w-fit p-3 border-2 cursor-pointer border-violet-600 hover:bg-opacity-25 hover:bg-violet-300'>
+              <a target="_blank" href='https://www.linkedin.com/in/gretelmn/' rel="noreferrer">LinkedIn</a>
             </div>
-            <div className='absolute top-10 border ml-16 rounded-full w-fit p-2 border-2 cursor-pointer border-violet-600 hover:bg-opacity-25 hover:bg-violet-300'>
-              <a target="_blank" href='mailto:gretelmn@gmail.com' rel="noreferrer"><img src="./assets/email.png" alt='email-icon'/></a>
+            <div className='border mt-10 ml-4 rounded-full w-fit p-3 border-2 cursor-pointer border-violet-600 hover:bg-opacity-25 hover:bg-violet-300'>
+              <a target="_blank" href='mailto:gretelmn@gmail.com' rel="noreferrer">Email</a>
             </div>
           </div>
           <div className="mx-auto max-w-3xl pt-10 pb-10 sm:pt-48 sm:pb-40">
@@ -57,13 +54,13 @@ export default function Example() {
                   This is my personal portfolio, and I'm working to create the best experience for you.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 sm:text-center">
-                  Meantime please check my repositories in <span className='font-bold'>Github</span>:
+                  Meantime please check my repositories in <a target="_blank" href='https://github.com/grety22?tab=repositories' rel="noreferrer"><span className='font-bold'>Github</span></a>.
                 </p>
-                <div className="mt-8 mx-auto flex sm:justify-center border-2 border-white w-fit rounded-full p-2 pr-3 hover:border-violet-600">                
+                {/* <div className="mt-8 mx-auto flex sm:justify-center border-2 border-white w-fit rounded-full p-2 pr-3 hover:border-violet-600">                
                   <a target="_blank" href='https://github.com/grety22?tab=repositories' rel="noreferrer">
                     <img src="./assets/github.png" alt='github-icon'/>
                   </a>
-                </div>
+                </div> */}
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                   Thank you for your patience. 
                 </p>
