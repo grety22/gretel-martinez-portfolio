@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gretel-martinez-portfolio/static/css/main.0859be11.css",
-    "main.js": "/gretel-martinez-portfolio/static/js/main.b53a90d0.js",
+    "main.css": "/gretel-martinez-portfolio/static/css/main.5ae79107.css",
+    "main.js": "/gretel-martinez-portfolio/static/js/main.da2efcdc.js",
     "index.html": "/gretel-martinez-portfolio/index.html",
-    "main.0859be11.css.map": "/gretel-martinez-portfolio/static/css/main.0859be11.css.map",
-    "main.b53a90d0.js.map": "/gretel-martinez-portfolio/static/js/main.b53a90d0.js.map"
+    "main.5ae79107.css.map": "/gretel-martinez-portfolio/static/css/main.5ae79107.css.map",
+    "main.da2efcdc.js.map": "/gretel-martinez-portfolio/static/js/main.da2efcdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0859be11.css",
-    "static/js/main.b53a90d0.js"
+    "static/css/main.5ae79107.css",
+    "static/js/main.da2efcdc.js"
   ]
 }
